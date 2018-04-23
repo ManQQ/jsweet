@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jsweet.candies:threejs:75-20171101">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/threejs/75-20171101/threejs-75-20171101.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/threejs/75-20171101/threejs-75-20171101-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/threejs/75-20171101/threejs-75-20171101-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

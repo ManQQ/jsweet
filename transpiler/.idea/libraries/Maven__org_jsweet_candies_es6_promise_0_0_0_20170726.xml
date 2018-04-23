@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jsweet.candies:es6-promise:0.0.0-20170726">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/es6-promise/0.0.0-20170726/es6-promise-0.0.0-20170726.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/es6-promise/0.0.0-20170726/es6-promise-0.0.0-20170726-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/es6-promise/0.0.0-20170726/es6-promise-0.0.0-20170726-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

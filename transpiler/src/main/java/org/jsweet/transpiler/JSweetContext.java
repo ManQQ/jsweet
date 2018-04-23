@@ -1747,6 +1747,7 @@ public class JSweetContext extends Context {
 			if (s instanceof MethodSymbol) {
 				String methodName = s.getSimpleName().toString();
 				if (JSweetConfig.ANONYMOUS_FUNCTION_NAME.equals(methodName) //
+						|| JSweetConfig.ANONYMOUS_FUNCTION_NAME_INVOKE.equals(methodName)
 						|| (deprecatedApply && JSweetConfig.ANONYMOUS_DEPRECATED_FUNCTION_NAME.equals(methodName))) {
 					return true;
 				}

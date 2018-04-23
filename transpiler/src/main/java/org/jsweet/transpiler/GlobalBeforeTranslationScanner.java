@@ -48,13 +48,13 @@ import com.sun.tools.javac.tree.JCTree.JCWildcard;
 /**
  * This AST scanner performs global analysis and fills up the context with
  * information that will be used by the translator.
- * 
+ *
  * @see JSweetContext
  * @author Renaud Pawlak
  */
 public class GlobalBeforeTranslationScanner extends AbstractTreeScanner {
 
-	Set<JCVariableDecl> lazyInitializedStaticCandidates = new HashSet<>();
+	private Set<JCVariableDecl> lazyInitializedStaticCandidates = new HashSet<>();
 
 	/**
 	 * Creates a new global scanner.
@@ -117,7 +117,7 @@ public class GlobalBeforeTranslationScanner extends AbstractTreeScanner {
 				}
 
 				if (!context.hasFieldNameMapping(var.sym)) {
-					VarSymbol clashingField = null;
+					VarSymbol clashingField;
 					clashingField = Util.findFieldDeclaration((ClassSymbol) classdecl.sym.getSuperclass().tsym,
 							var.name);
 					if (clashingField != null) {
@@ -134,12 +134,12 @@ public class GlobalBeforeTranslationScanner extends AbstractTreeScanner {
 								JSweetConfig.FIELD_METHOD_CLASH_RESOLVER_PREFIX + var.name.toString());
 					}
 				}
-				if (var.getModifiers().getFlags().contains(Modifier.STATIC)) {
-					if (!(var.getModifiers().getFlags().contains(Modifier.FINAL) && var.init != null
-							&& var.init instanceof JCLiteral)) {
-						lazyInitializedStaticCandidates.add(var);
-					}
-				}
+//				if (var.getModifiers().getFlags().contains(Modifier.STATIC)) {
+//					if (!(var.getModifiers().getFlags().contains(Modifier.FINAL) && var.init != null
+//							&& var.init instanceof JCLiteral)) {
+//						lazyInitializedStaticCandidates.add(var);
+//					}
+//				}
 			} else if (def instanceof JCBlock) {
 				if (((JCBlock) def).isStatic()) {
 					context.countStaticInitializer(classdecl.sym);

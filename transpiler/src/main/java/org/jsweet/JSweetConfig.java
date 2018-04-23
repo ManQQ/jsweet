@@ -217,6 +217,7 @@ public abstract class JSweetConfig {
 
 	public static final String ANONYMOUS_DEPRECATED_FUNCTION_NAME = "apply";
 	public static final String ANONYMOUS_FUNCTION_NAME = "$apply";
+	public static final String ANONYMOUS_FUNCTION_NAME_INVOKE = "$invoke";
 	public static final String ANONYMOUS_DEPRECATED_STATIC_FUNCTION_NAME = "applyStatic";
 	public static final String ANONYMOUS_STATIC_FUNCTION_NAME = "$applyStatic";
 
@@ -253,6 +254,10 @@ public abstract class JSweetConfig {
 	 * Fully-qualified name for the JSweet <code>@Erased</code> annotation (see JSweet core API).
 	 */
 	public static final String ANNOTATION_ERASED = JSweetConfig.LANG_PACKAGE + ".Erased";
+
+	public static final String ANNOTATION_STJS_BRIDGE = JSweetConfig.LANG_PACKAGE + ".STJSBridge";
+
+	public static final String ANNOTATION_NATIVE = JSweetConfig.LANG_PACKAGE + ".Native";
 	/**
 	 * Fully-qualified name for the JSweet <code>@SyntacticIterable</code> annotation (see JSweet core API).
 	 */

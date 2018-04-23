@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jsweet.candies:angular:1.4.0-20170726">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/angular/1.4.0-20170726/angular-1.4.0-20170726.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/angular/1.4.0-20170726/angular-1.4.0-20170726-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/candies/angular/1.4.0-20170726/angular-1.4.0-20170726-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

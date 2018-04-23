@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jsweet:jsweet-core:5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/jsweet-core/5-SNAPSHOT/jsweet-core-5-20170914.032325-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/jsweet-core/5-SNAPSHOT/jsweet-core-5-20170914.032325-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsweet/jsweet-core/5-SNAPSHOT/jsweet-core-5-20170914.032325-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
